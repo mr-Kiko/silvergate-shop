@@ -18,7 +18,7 @@ function App() {
       name: "Product 1",
       price: 50,
       imageUrl: image1,
-      describe: "hello world",
+      describe: "This is a good product.",
     },
     {
       id: 2,
