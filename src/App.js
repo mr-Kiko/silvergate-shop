@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import "./App.css";
-import image1 from '../src/images/silverBar1.jpeg'
-import image2 from '../src/images/silverBar2.jpeg'
-import image3 from '../src/images/silverBar3.jpeg'
-import image4 from '../src/images/silverBar4.jpeg'
-import image5 from '../src/images/silverBar5.jpeg'
+import image1 from "../src/images/silverBar1.jpeg";
+import image2 from "../src/images/silverBar2.jpeg";
+import image3 from "../src/images/silverBar3.jpeg";
+import image4 from "../src/images/silverBar4.jpeg";
+import image5 from "../src/images/silverBar5.jpeg";
+import pkg1 from "../src/images/pkg1.jpeg";
+import pkg2 from "../src/images/pkg2.jpeg";
+import pkg3 from "../src/images/pkg3.jpeg";
+import pkg4 from "../src/images/pkg4.jpeg";
+import pkg5 from "../src/images/pkg5.jpeg";
 
 function App() {
   const products = [
@@ -13,7 +18,7 @@ function App() {
       name: "Product 1",
       price: 50,
       imageUrl: image1,
-      describe: "This is a good product.",
+      describe: "hello world",
     },
     {
       id: 2,
@@ -50,35 +55,35 @@ function App() {
       id: 1,
       name: "Package Option 1",
       price: 10,
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: pkg1,
       describe: "Package with extra items.",
     },
     {
       id: 2,
       name: "Package Option 2",
       price: 15,
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: pkg2,
       describe: "Special pack for more value.",
     },
     {
       id: 3,
       name: "Package Option 3",
       price: 12,
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: pkg3,
       describe: "Affordable package with essential items.",
     },
     {
       id: 4,
       name: "Package Option 4",
       price: 20,
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: pkg4,
       describe: "Premium package with extra features.",
     },
     {
       id: 5,
       name: "Package Option 5",
       price: 25,
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: pkg5,
       describe: "Exclusive package with limited edition items.",
     },
   ];
@@ -160,8 +165,9 @@ function App() {
               <p className="card-desc">Details: {product.describe}</p>
             </div>
             <div
-              className={`card-details ${openCard === product.id ? "open" : ""
-                }`}
+              className={`card-details ${
+                openCard === product.id ? "open" : ""
+              }`}
             >
               {openCard === product.id ? (
                 <>
@@ -180,20 +186,18 @@ function App() {
                   >
                     Packaging Options
                   </button>
-
                 </>
               ) : null}
             </div>
             <div className="centerize">
               <div className="packaging-container">
-                {showPackaging === product.id && openCard === product.id && (
+                {showPackaging === product.id &&
+                  openCard === product.id &&
                   packagingOptions.map((pkg) => (
                     <div key={pkg.id} className="packaging-card">
                       <div
                         className="packaging-main"
-                        onClick={() =>
-                          addToCart(pkg.id, pkg.price, pkg.name)
-                        }
+                        onClick={() => addToCart(pkg.id, pkg.price, pkg.name)}
                       >
                         <img
                           src={pkg.imageUrl}
@@ -205,8 +209,7 @@ function App() {
                         <p className="card-price">Price: ${pkg.price}</p>
                       </div>
                     </div>
-                  ))
-                )}
+                  ))}
               </div>
             </div>
           </div>
