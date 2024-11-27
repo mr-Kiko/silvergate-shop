@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/silvergate-shop/static/css/main.c814f66d.css",
+    "main.js": "/silvergate-shop/static/js/main.f00fb133.js",
+    "static/js/453.c4f5bd2a.chunk.js": "/silvergate-shop/static/js/453.c4f5bd2a.chunk.js",
+    "static/media/silverBar4.jpeg": "/silvergate-shop/static/media/silverBar4.d7ff323dfc038ab4c16a.jpeg",
+    "static/media/silverBar5.jpeg": "/silvergate-shop/static/media/silverBar5.41126e82d89069aeb743.jpeg",
+    "static/media/pkg5.jpeg": "/silvergate-shop/static/media/pkg5.d3205194e972c03dee2c.jpeg",
+    "static/media/silverBar2.jpeg": "/silvergate-shop/static/media/silverBar2.2e114225854ff036c5df.jpeg",
+    "static/media/silverBar3.jpeg": "/silvergate-shop/static/media/silverBar3.2e114225854ff036c5df.jpeg",
+    "static/media/pkg4.jpeg": "/silvergate-shop/static/media/pkg4.33d94c2c80cda40146be.jpeg",
+    "static/media/pkg3.jpeg": "/silvergate-shop/static/media/pkg3.a877d5d09927e4b74fa2.jpeg",
+    "static/media/pkg2.jpeg": "/silvergate-shop/static/media/pkg2.864bb7f4253696bf0cc9.jpeg",
+    "static/media/pkg1.jpeg": "/silvergate-shop/static/media/pkg1.6830f1d8d97c5286dda7.jpeg",
+    "static/media/silverBar1.jpeg": "/silvergate-shop/static/media/silverBar1.082fbab238c00e3f9797.jpeg",
+    "static/media/wallpaper.svg": "/silvergate-shop/static/media/wallpaper.ef6a7ed4d0abdcd9549e.svg",
+    "index.html": "/silvergate-shop/index.html",
+    "main.c814f66d.css.map": "/silvergate-shop/static/css/main.c814f66d.css.map",
+    "main.f00fb133.js.map": "/silvergate-shop/static/js/main.f00fb133.js.map",
+    "453.c4f5bd2a.chunk.js.map": "/silvergate-shop/static/js/453.c4f5bd2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c814f66d.css",
+    "static/js/main.f00fb133.js"
+  ]
+}
