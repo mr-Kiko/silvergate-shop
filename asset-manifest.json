@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/silvergate-shop/static/css/main.66abcd8d.css",
+    "main.css": "/silvergate-shop/static/css/main.c814f66d.css",
     "main.js": "/silvergate-shop/static/js/main.79c291ff.js",
     "static/js/453.c4f5bd2a.chunk.js": "/silvergate-shop/static/js/453.c4f5bd2a.chunk.js",
     "static/media/silverBar4.jpeg": "/silvergate-shop/static/media/silverBar4.d7ff323dfc038ab4c16a.jpeg",
@@ -15,12 +15,12 @@
     "static/media/silverBar1.jpeg": "/silvergate-shop/static/media/silverBar1.082fbab238c00e3f9797.jpeg",
     "static/media/wallpaper.svg": "/silvergate-shop/static/media/wallpaper.ef6a7ed4d0abdcd9549e.svg",
     "index.html": "/silvergate-shop/index.html",
-    "main.66abcd8d.css.map": "/silvergate-shop/static/css/main.66abcd8d.css.map",
+    "main.c814f66d.css.map": "/silvergate-shop/static/css/main.c814f66d.css.map",
     "main.79c291ff.js.map": "/silvergate-shop/static/js/main.79c291ff.js.map",
     "453.c4f5bd2a.chunk.js.map": "/silvergate-shop/static/js/453.c4f5bd2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66abcd8d.css",
+    "static/css/main.c814f66d.css",
     "static/js/main.79c291ff.js"
   ]
 }
