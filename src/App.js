@@ -150,7 +150,7 @@ function App() {
     <div className="background">
       <div className="text-container">
         <h1 className="title">SilverGate</h1>
-        <p className="subtitle">Quality products for you</p>
+        <p className="subtitle">Quality products for you !!!!</p>
       </div>
       <div className="card-container">
         {products.map((product) => (
